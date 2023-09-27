@@ -1,0 +1,8 @@
+
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(š’‹™ûÿÿÿÿ8ÕßØ¾¬1
+C	java:S131/""Add a default case to this switch.(ÌÓðžûÿÿÿÿ8×ßØ¾¬1
+R
+java:S1874B"5Remove this use of "getItemInHand"; it is deprecated.(â­ÌÎ8äÍÛ¾¬1
+è
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 69 to 64, Complexity from 15 to 14, Nesting Level from 4 to 2, Number of Variables from 14 to 6.(š’‹™ûÿÿÿÿ8ÜßØ¾¬1

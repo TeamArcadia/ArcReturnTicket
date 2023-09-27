@@ -9,7 +9,6 @@ import java.util.Map;
 
 public class MessageContent {
     private static MessageContent instance;
-    private Map<MessageType, Map<String, String>> msgMap = new HashMap<>();
 
     FileConfiguration msgConfig = MessageConfig.getMessageConfig();
 

@@ -30,7 +30,6 @@ public final class PXReturnTicket extends JavaPlugin {
         /* --------------- LISTENER ---------------*/
         getServer().getPluginManager().registerEvents(new TicketClickListener(this), this);
 
-
     }
 
   public static PXReturnTicket getInstance() {

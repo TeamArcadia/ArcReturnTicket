@@ -2,8 +2,8 @@ package hy.pxreturnticket.listener;
 
 import hy.pxreturnticket.PXReturnTicket;
 import hy.pxreturnticket.file.DataFile;
-import hy.pxreturnticket.message.MessageContent;
-import hy.pxreturnticket.message.MessageType;
+import hy.pxreturnticket.message.Message;
+import hy.pxreturnticket.message.MessageKey;
 import hy.pxreturnticket.vaild.ItemValidator;
 import hy.pxreturnticket.vaild.LocChange;
 import org.bukkit.Location;
@@ -14,7 +14,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -22,7 +21,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 public class TicketClickListener implements Listener {
     private final JavaPlugin plugin;
     private FileConfiguration dataConfig;
-    MessageContent msgContent = MessageContent.getInstance();
+    Message msgData = Message.getInstance();
 
     public TicketClickListener(PXReturnTicket plugin) {
         this.plugin = plugin;
@@ -44,7 +43,7 @@ public class TicketClickListener implements Listener {
             Location tpLocation = dataConfig.getLocation(validItemKey + ".location");
             int cooltime = dataConfig.getInt(validItemKey + ".cooltime") * 20;
 
-            player.sendMessage(msgContent.getMessage(MessageType.RETURNTICKET, "click_ticket"));
+            player.sendMessage(msgData.getMessage(MessageKey.CLICK_TICKET));
 
             new BukkitRunnable() {
                 int ticksPassed = 0;
@@ -56,11 +55,11 @@ public class TicketClickListener implements Listener {
                     ItemStack currentItem = player.getInventory().getItemInMainHand();
 
                     if (locChange.hasMoved()) {
-                        player.sendMessage(msgContent.getMessage(MessageType.RETURNTICKET, "player_moved"));
+                        player.sendMessage(msgData.getMessage(MessageKey.PLAYER_MOVED));
                         this.cancel();
 
                     } else if (!originalItem.equals(currentItem)) {
-                        player.sendMessage(msgContent.getMessage(MessageType.RETURNTICKET, "player_notinhand"));
+                        player.sendMessage(msgData.getMessage(MessageKey.PLAYER_NOT_IN_HAND));
                         this.cancel();
 
                     } else if (ticksPassed >= cooltime) {
@@ -72,7 +71,7 @@ public class TicketClickListener implements Listener {
                             player.getInventory().remove(originalItem);
                         }
 
-                        player.sendMessage(msgContent.getMessage(MessageType.RETURNTICKET, "used_ticket"));
+                        player.sendMessage(msgData.getMessage(MessageKey.USED_TICKET));
                         this.cancel();
                     }
                     ticksPassed++;

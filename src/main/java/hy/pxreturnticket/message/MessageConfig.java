@@ -1,6 +1,6 @@
 package hy.pxreturnticket.message;
 
-import org.bukkit.Bukkit;
+import hy.pxreturnticket.PXReturnTicket;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
@@ -9,21 +9,22 @@ import java.io.File;
 public class MessageConfig {
 
     private static File messageFile;
-    private static FileConfiguration messageConfig;
+    public static FileConfiguration messageConfig;
 
 
     public static void setup() {
+
         if (messageFile == null) {
-            messageFile = new File(Bukkit.getServer().getPluginManager().getPlugin("PXReturnTicket").getDataFolder(), "message.yml");
+            messageFile = new File(PXReturnTicket.getInstance().getDataFolder(), "message.yml");
         }
 
         if (!messageFile.exists()) {
-            Bukkit.getServer().getPluginManager().getPlugin("PXReturnTicket").saveResource("message.yml", false);
+            PXReturnTicket.getInstance().saveResource("message.yml", false);
         }
 
         messageConfig = YamlConfiguration.loadConfiguration(messageFile);
+        Message.instance = new Message(MessageConfig.messageConfig);
     }
-
 
 
     public static FileConfiguration getMessageConfig() {
@@ -32,7 +33,9 @@ public class MessageConfig {
 
     public static void reload() {
         try {
-            if (messageFile != null) {
+            if (messageFile == null || !messageFile.exists()) {
+                setup();
+            } else {
                 messageConfig = YamlConfiguration.loadConfiguration(messageFile);
             }
         } catch (Exception e) {

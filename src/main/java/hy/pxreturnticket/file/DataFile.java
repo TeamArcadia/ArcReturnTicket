@@ -1,6 +1,6 @@
 package hy.pxreturnticket.file;
 
-import org.bukkit.Bukkit;
+import hy.pxreturnticket.PXReturnTicket;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
@@ -13,7 +13,7 @@ public class DataFile {
     private static FileConfiguration dataFile;
 
     public static void setup() {
-        file = new File(Bukkit.getServer().getPluginManager().getPlugin("PXReturnTicket").getDataFolder(), "data.yml");
+        file = new File(PXReturnTicket.getInstance().getDataFolder(), "data.yml");
 
         if (!file.exists()) {
             try {

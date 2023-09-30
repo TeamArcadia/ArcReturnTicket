@@ -1,11 +1,8 @@
 package hy.pxreturnticket.vaild;
 
 import hy.pxreturnticket.file.DataFile;
-import hy.pxreturnticket.util.ColorCode;
-import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 
 public class ItemValidator {
     public static FileConfiguration dataConfig = DataFile.get();

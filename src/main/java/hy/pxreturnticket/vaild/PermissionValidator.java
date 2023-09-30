@@ -1,18 +1,18 @@
-    package hy.pxreturnticket.vaild;
+package hy.pxreturnticket.vaild;
 
-    import hy.pxreturnticket.message.MessageContent;
-    import hy.pxreturnticket.message.MessageType;
-    import org.bukkit.entity.Player;
+import hy.pxreturnticket.message.Message;
+import hy.pxreturnticket.message.MessageKey;
+import org.bukkit.entity.Player;
 
-    public class PermissionValidator {
+public class PermissionValidator {
 
-        public static Boolean hasPermission(Player player, String permission) {
-            MessageContent msgContent = MessageContent.getInstance();
-             if (player.hasPermission("px.returnticket." + permission)) {
-                return true;
-             } else {
-                 player.sendMessage(msgContent.getMessage(MessageType.ERROR, "no_permission"));
-                 return false;
-             }
-        }
+    public static Boolean hasPermission(Player player, String permission) {
+        Message msgData = Message.getInstance();
+         if (player.hasPermission("px.returnticket." + permission)) {
+            return true;
+         } else {
+             player.sendMessage(msgData.getMessage(MessageKey.NO_PERMISSION));
+             return false;
+         }
     }
+}

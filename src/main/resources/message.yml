@@ -2,14 +2,14 @@
 # │ PXReturnTicket 메시지 파일입니다.
 # │ 불필요한 메시지는 지우거나 해당 라인 앞에 '#'을 붇여서 주석 처리해주세요.
 # └────────────────────────────────────────────────────────────────────────────+
-normalMessage:
+normal:
   # 접두사
   prefix: "&6[ ReturnTicket ] "
 
   # config를 리로드 했을 때 출력됨
   reload_config: "&a콘피그를 리로드했습니다."
 
-errorMessage:
+error:
   # 콘솔로 명령어를 입력했을 때 출력됨
   player_only: "&c플레이어만 입력이 가능한 커맨드입니다."
 
@@ -19,7 +19,7 @@ errorMessage:
   # 잘못된 명령어를 입력했을 때 출력됨
   wrong_command: "&c잘못된 명령어입니다."
 
-returnTicketMessage:
+main:
 
   # 귀환서를 생성했을 때 출력됨
   create_ticket: "&a귀환서를 성공적으로 생성했습니다."
@@ -42,12 +42,6 @@ returnTicketMessage:
   # 귀환서를 찾을 수 없으면 출력됨
   warp_cant_find: "&c그런 이름의 귀환서를 찾을 수 없습니다."
 
-  # 귀환서 위치를 설정했을 때 출력됨
-  ticket_setloc: "&a귀환서 위치를 설정했습니다."
-
-  # 귀환서 쿨타임을 설정했을 때 출력됨
-  ticket_setcool: "&a귀환서 쿨타임을 설정했습니다."
-
   # 귀환서를 우클릭 했을 때 출력됨
   click_ticket: "&f쿨타임이 끝난 후에 이동합니다. (움직이면 취소됩니다.)"
 
@@ -55,7 +49,7 @@ returnTicketMessage:
   player_moved: "&f움직여서 취소되었습니다."
 
   # 귀환서를 우클릭한 상태에서 귀환서를 손에 들고 있지 않을 때 출력됨
-  player_notinhand: "&f귀환서를 손에 들고 있지 않습니다."
+  player_not_in_hand: "&f귀환서를 손에 들고 있지 않습니다."
 
   # 귀환서가 사용되었을 때 출력됨
   used_ticket: "&f이동되었습니다."

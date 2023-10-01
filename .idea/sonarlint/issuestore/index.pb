@@ -11,16 +11,10 @@ c
 3src/main/java/hy/pxreturnticket/PXReturnTicket.java,6\2\62f44c7ef3b5eb2655362b752f1a967bf39890e9
 x
 Hsrc/main/java/hy/pxreturnticket/command/tabcomplete/ReturnTicketTab.java,c\c\cc64b269160f436a467955a0650bd381ded1a468
-h
-8src/main/java/hy/pxreturnticket/vaild/ItemValidator.java,1\8\182157467ab25be89a42ad7d400cc6df99c199d8
 l
 <src/main/java/hy/pxreturnticket/command/ReturnTicketCmd.java,8\a\8ac808956964880f8d04dfa6d24cd7e2ed52647e
-d
-4src/main/java/hy/pxreturnticket/vaild/LocChange.java,7\e\7e9d6ec297360828dd505990e44abde4ac50b495
 q
 Asrc/main/java/hy/pxreturnticket/listener/TicketClickListener.java,f\6\f69aaed5934a2726ee5cfef2c810a80c2883758f
-n
->src/main/java/hy/pxreturnticket/vaild/PermissionValidator.java,2\0\20f0ff30b90735eced5bd0e90b833a7c4a4b445b
 w
 G.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35,b\f\bfb9453d49af9bc40f5f7a5f034be3c7ef8fa6bf
 ]
@@ -32,19 +26,13 @@ P
 U
 %.idea/modules/PXReturnTicket.test.iml,7\6\7620d46f0c7455c10eab71b32b338ced449c3d1c
 
-Q.idea/sonarlint/securityhotspotstore/1/8/182157467ab25be89a42ad7d400cc6df99c199d8,0\f\0f19ebbe3748cde3ec4547ef644a5abf1acae54c
-
 Q.idea/sonarlint/securityhotspotstore/4/2/42eba8734a354ae1e321c1e6455ff822843f025e,6\4\647ccda7cb482f7e9ddfb2d7992c9421926209d1
-
-Q.idea/sonarlint/securityhotspotstore/2/0/20f0ff30b90735eced5bd0e90b833a7c4a4b445b,3\3\33e364c03a0cc6f497776346d4c6b3bac39a4f7c
 
 Q.idea/sonarlint/securityhotspotstore/5/0/50b2b83bd7638804f59ad64bc194189671bf5fbe,6\7\67cd032daba66fb83b5933708142b1152059f767
 
 Q.idea/sonarlint/securityhotspotstore/6/2/62f44c7ef3b5eb2655362b752f1a967bf39890e9,2\3\2308b6874bdea0674b96fb5fa2ed58225168f4cb
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-
-Q.idea/sonarlint/securityhotspotstore/7/e/7e9d6ec297360828dd505990e44abde4ac50b495,9\6\966064b62e124a8022d0e220eb212dd427eae2de
 
 Q.idea/sonarlint/securityhotspotstore/8/a/8ac808956964880f8d04dfa6d24cd7e2ed52647e,e\8\e84a7dbeecd3c61d2fa4dedfd1f4b420f75e48d3
 
@@ -55,8 +43,6 @@ Q.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a
 Q.idea/sonarlint/securityhotspotstore/f/6/f69aaed5934a2726ee5cfef2c810a80c2883758f,0\5\0597835a88b3669779750db72b07ec3fbafe619d
 
 Q.idea/sonarlint/securityhotspotstore/f/2/f2e00bec856ef559aac3c7e14f02f623ab96d035,f\b\fb9618d759092046d420c93772ab487c5b5f72e4
-w
-G.idea/sonarlint/issuestore/7/e/7e9d6ec297360828dd505990e44abde4ac50b495,7\b\7b6982117582ecfc50891b65fbd6f288f0cf9c4e
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -74,3 +60,9 @@ g
 7src/main/java/hy/pxreturnticket/message/MessageKey.java,1\b\1b77bb1894cc73e13128bcd3508075de024a9ca7
 d
 4src/main/java/hy/pxreturnticket/message/Message.java,0\d\0d847a7a678757ff126a556a10ecffc42d47f34c
+h
+8src/main/java/hy/pxreturnticket/valid/ItemValidator.java,f\c\fc0853de29463ac48043ea99b03e92e6a1db0957
+d
+4src/main/java/hy/pxreturnticket/valid/LocChange.java,6\2\62272fbd13c9903bc7b2eaacc6b5b963e5fb3e17
+n
+>src/main/java/hy/pxreturnticket/valid/PermissionValidator.java,0\5\05d02d47d76a3e9d1e78ffc290f38a96722592d7

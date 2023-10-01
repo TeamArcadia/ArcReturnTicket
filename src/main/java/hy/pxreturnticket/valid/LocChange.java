@@ -1,4 +1,4 @@
-package hy.pxreturnticket.vaild;
+package hy.pxreturnticket.valid;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

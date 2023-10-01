@@ -1,14 +1,10 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-h
-8src/main/java/hy/pxreturnticket/message/MessageType.java,a\4\a4a657796825624d391ef5070824706b09e9a4b4
 j
 :src/main/java/hy/pxreturnticket/message/MessageConfig.java,5\0\50b2b83bd7638804f59ad64bc194189671bf5fbe
 c
 3src/main/java/hy/pxreturnticket/util/ColorCode.java,4\2\42eba8734a354ae1e321c1e6455ff822843f025e
-k
-;src/main/java/hy/pxreturnticket/message/MessageContent.java,9\c\9cd207a7346380b56d5bebb0760be7f0d9a01f06
 b
 2src/main/java/hy/pxreturnticket/file/DataFile.java,f\2\f2e00bec856ef559aac3c7e14f02f623ab96d035
 c
@@ -25,8 +21,6 @@ q
 Asrc/main/java/hy/pxreturnticket/listener/TicketClickListener.java,f\6\f69aaed5934a2726ee5cfef2c810a80c2883758f
 n
 >src/main/java/hy/pxreturnticket/vaild/PermissionValidator.java,2\0\20f0ff30b90735eced5bd0e90b833a7c4a4b445b
-w
-G.idea/sonarlint/issuestore/a/4/a4a657796825624d391ef5070824706b09e9a4b4,c\c\cc588b01afd49dda3e569d991babc83b34974451
 w
 G.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35,b\f\bfb9453d49af9bc40f5f7a5f034be3c7ef8fa6bf
 ]
@@ -54,10 +48,6 @@ Q.idea/sonarlint/securityhotspotstore/7/e/7e9d6ec297360828dd505990e44abde4ac50b4
 Å
 Q.idea/sonarlint/securityhotspotstore/8/a/8ac808956964880f8d04dfa6d24cd7e2ed52647e,e\8\e84a7dbeecd3c61d2fa4dedfd1f4b420f75e48d3
 Å
-Q.idea/sonarlint/securityhotspotstore/9/c/9cd207a7346380b56d5bebb0760be7f0d9a01f06,5\d\5d3e805aa1e49808c45802e4a2cb3936629938f1
-Å
-Q.idea/sonarlint/securityhotspotstore/a/4/a4a657796825624d391ef5070824706b09e9a4b4,a\0\a08ac5ea57e21b80617bbcd42ab9f9c68f6dc0f8
-Å
 Q.idea/sonarlint/securityhotspotstore/c/c/cc64b269160f436a467955a0650bd381ded1a468,1\b\1b906656d329d22c86dddeede083b41a4a22114c
 Å
 Q.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35,2\5\25f6469773b9f3ebb994178c1114a60412389f58
@@ -80,3 +70,7 @@ X
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+g
+7src/main/java/hy/pxreturnticket/message/MessageKey.java,1\b\1b77bb1894cc73e13128bcd3508075de024a9ca7
+d
+4src/main/java/hy/pxreturnticket/message/Message.java,0\d\0d847a7a678757ff126a556a10ecffc42d47f34c

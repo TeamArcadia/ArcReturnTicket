@@ -1,4 +1,4 @@
-package hy.pxreturnticket.vaild;
+package hy.pxreturnticket.valid;
 
 import hy.pxreturnticket.file.DataFile;
 import org.bukkit.configuration.file.FileConfiguration;

@@ -1,10 +1,9 @@
 
->
-java:S1700"Rename field "messageConfig"(ÎŸ²øÿÿÿÿ8…“©ô­1
+v
+java:S1104"YMake messageConfig a static final constant or non-public and provide accessors if needed.( •†Ò8–ùê¢®1
+P
+java:S1444"3Make this "public static messageConfig" field final( •†Ò8—ùê¢®1
+9
+java:S1700"Rename field "messageConfig"( •†Ò8™ùê¢®1
 \
-java:S1118
-":Add a private constructor to hide the implicit public one.(Á Ì•ûÿÿÿÿ8û¢œô­1
-R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8‹ŸÉ®1
-S
-java:S1068"1Remove this unused "messageConfig" private field.(ÎŸ²øÿÿÿÿ8œ“©ô­1
+java:S1118	":Add a private constructor to hide the implicit public one.(Á Ì•ûÿÿÿÿ8ªùê¢®1

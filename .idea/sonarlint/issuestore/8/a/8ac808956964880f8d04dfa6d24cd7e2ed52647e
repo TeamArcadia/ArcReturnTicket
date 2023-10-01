@@ -1,16 +1,16 @@
 
 J
-java:S54111"(Use a primitive boolean expression here.(‰é£«ûÿÿÿÿ8Ìˆ°ó­1
+java:S54113"(Use a primitive boolean expression here.(‰é£«ûÿÿÿÿ8»È‰¢®1
 J
-java:S5411:"(Use a primitive boolean expression here.(Ðö½†þÿÿÿÿ8Íˆ°ó­1
+java:S5411<"(Use a primitive boolean expression here.(Ðö½†þÿÿÿÿ8¼È‰¢®1
 J
-java:S5411d"(Use a primitive boolean expression here.(Á¼âÏþÿÿÿÿ8Íˆ°ó­1
+java:S5411f"(Use a primitive boolean expression here.(Á¼âÏþÿÿÿÿ8¼È‰¢®1
 [
-java:S3516"9Refactor this method to not always return the same value.(š’‹™ûÿÿÿÿ8›‰°ó­1
+java:S3516"9Refactor this method to not always return the same value.(š’‹™ûÿÿÿÿ8»ºœ£®1
 t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(š’‹™ûÿÿÿÿ8ÕßØ¾¬1
-C	java:S131/""Add a default case to this switch.(ÌÓðžûÿÿÿÿ8×ßØ¾¬1
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(š’‹™ûÿÿÿÿ8ÄÈ‰¢®1
+C	java:S1311""Add a default case to this switch.(ÌÓðžûÿÿÿÿ8ÇÈ‰¢®1
 R
-java:S1874B"5Remove this use of "getItemInHand"; it is deprecated.(â­ÌÎ8äÍÛ¾¬1
+java:S1874D"5Remove this use of "getItemInHand"; it is deprecated.(â­ÌÎ8ÉÈ‰¢®1
 è
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 69 to 64, Complexity from 15 to 14, Nesting Level from 4 to 2, Number of Variables from 14 to 6.(š’‹™ûÿÿÿÿ8ÜßØ¾¬1
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 69 to 64, Complexity from 15 to 14, Nesting Level from 4 to 2, Number of Variables from 14 to 6.(š’‹™ûÿÿÿÿ8ÏÈ‰¢®1

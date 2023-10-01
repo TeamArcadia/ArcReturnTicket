@@ -3,12 +3,8 @@ c
 3src/main/java/hy/pxreturnticket/util/ColorCode.java,4\2\42eba8734a354ae1e321c1e6455ff822843f025e
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-h
-8src/main/java/hy/pxreturnticket/message/MessageType.java,a\4\a4a657796825624d391ef5070824706b09e9a4b4
 j
 :src/main/java/hy/pxreturnticket/message/MessageConfig.java,5\0\50b2b83bd7638804f59ad64bc194189671bf5fbe
-k
-;src/main/java/hy/pxreturnticket/message/MessageContent.java,9\c\9cd207a7346380b56d5bebb0760be7f0d9a01f06
 b
 2src/main/java/hy/pxreturnticket/file/DataFile.java,f\2\f2e00bec856ef559aac3c7e14f02f623ab96d035
 c
@@ -28,8 +24,6 @@ n
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-w
-G.idea/sonarlint/issuestore/a/4/a4a657796825624d391ef5070824706b09e9a4b4,c\c\cc588b01afd49dda3e569d991babc83b34974451
 w
 G.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35,b\f\bfb9453d49af9bc40f5f7a5f034be3c7ef8fa6bf
 ]
@@ -57,10 +51,6 @@ Q.idea/sonarlint/securityhotspotstore/7/e/7e9d6ec297360828dd505990e44abde4ac50b4
 
 Q.idea/sonarlint/securityhotspotstore/8/a/8ac808956964880f8d04dfa6d24cd7e2ed52647e,e\8\e84a7dbeecd3c61d2fa4dedfd1f4b420f75e48d3
 
-Q.idea/sonarlint/securityhotspotstore/9/c/9cd207a7346380b56d5bebb0760be7f0d9a01f06,5\d\5d3e805aa1e49808c45802e4a2cb3936629938f1
-
-Q.idea/sonarlint/securityhotspotstore/a/4/a4a657796825624d391ef5070824706b09e9a4b4,a\0\a08ac5ea57e21b80617bbcd42ab9f9c68f6dc0f8
-
 Q.idea/sonarlint/securityhotspotstore/c/c/cc64b269160f436a467955a0650bd381ded1a468,1\b\1b906656d329d22c86dddeede083b41a4a22114c
 
 Q.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35,2\5\25f6469773b9f3ebb994178c1114a60412389f58
@@ -80,3 +70,7 @@ G.idea/sonarlint/issuestore/7/e/7e9d6ec297360828dd505990e44abde4ac50b495,7\b\7b
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+g
+7src/main/java/hy/pxreturnticket/message/MessageKey.java,1\b\1b77bb1894cc73e13128bcd3508075de024a9ca7
+d
+4src/main/java/hy/pxreturnticket/message/Message.java,0\d\0d847a7a678757ff126a556a10ecffc42d47f34c

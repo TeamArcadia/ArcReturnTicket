@@ -1,6 +1,6 @@
 package hy.pxreturnticket.command.tabcomplete;
 
-import hy.pxreturnticket.vaild.PermissionValidator;
+import hy.pxreturnticket.valid.PermissionValidator;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;

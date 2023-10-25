@@ -5,5 +5,17 @@ i
 java:S1192"GDefine a constant instead of duplicating this literal "create" 3 times.(»î¡£şÿÿÿÿ8íµï¡®1
 i
 java:S1192"GDefine a constant instead of duplicating this literal "delete" 3 times.(µöÓóüÿÿÿÿ8éÓï¡®1
+E
+java:S5411"(Use a primitive boolean expression here.(•šÎ¯8ùİµÈ®1
+J
+java:S5411"(Use a primitive boolean expression here.(»î¡£şÿÿÿÿ8ùİµÈ®1
+J
+java:S5411"(Use a primitive boolean expression here.(µöÓóüÿÿÿÿ8ùİµÈ®1
+J
+java:S5411"(Use a primitive boolean expression here.(‘¼˜şÿÿÿÿ8ùİµÈ®1
+E
+java:S5411"(Use a primitive boolean expression here.(Ôã‘–8úİµÈ®1
+E
+java:S5411"(Use a primitive boolean expression here.(Ğ¶†…8úİµÈ®1
 o
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¨œ‚8úÑù¼¬1

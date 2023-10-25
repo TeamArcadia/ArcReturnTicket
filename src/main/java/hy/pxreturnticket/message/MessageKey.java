@@ -19,6 +19,7 @@ public enum MessageKey {
     CREATE_TICKET("main.create_ticket"),
     FAILED_CREATE_TICKET("main.failed_create_ticket"),
     CREATE_CREATE_TICKET("main.create_create_ticket"),
+    CREATE_IN_HAND_ITEM("main.create_in_hand_item"),
     SAME_WARP_NAME("main.same_warp_name"),
     SAME_ITEM_NAME("main.same_item_name"),
     WARP_DELETE("main.warp_delete"),

@@ -8,6 +8,7 @@ import hy.pxreturnticket.message.MessageKey;
 import hy.pxreturnticket.valid.ItemValidator;
 import hy.pxreturnticket.valid.PermissionValidator;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -73,7 +74,10 @@ public class ReturnTicketCmd implements CommandExecutor {
                     player.sendMessage(msgData.getMessage(MessageKey.SAME_ITEM_NAME));
                     return false;
                 }
-
+                if (itemStack.getType().equals(Material.AIR)) {
+                    player.sendMessage(msgData.getMessage(MessageKey.CREATE_IN_HAND_ITEM));
+                    return false;
+                }
 
                 FileConfiguration dataConfig = DataFile.get();
 

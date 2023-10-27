@@ -1,7 +1,7 @@
 name: PXReturnTicket
 version: '${version}'
 main: hy.pxreturnticket.PXReturnTicket
-api-version: '1.20'
+api-version: '1.16'
 
 commands:
   rt:

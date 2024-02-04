@@ -1,4 +1,4 @@
-name: PXReturnTicket
+name: ArcReturnTicket
 version: '${version}'
 main: hy.pxreturnticket.PXReturnTicket
 api-version: '1.16'

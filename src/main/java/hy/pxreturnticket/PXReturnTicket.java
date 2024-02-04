@@ -10,9 +10,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
 
-public final class ArcReturnTicket extends JavaPlugin {
+public final class PXReturnTicket extends JavaPlugin {
 
-    private static ArcReturnTicket instance;
+    private static PXReturnTicket instance;
 
     @Override
     public void onEnable() {
@@ -32,7 +32,7 @@ public final class ArcReturnTicket extends JavaPlugin {
 
     }
 
-  public static ArcReturnTicket getInstance() {
+  public static PXReturnTicket getInstance() {
         return instance;
     }
 }
